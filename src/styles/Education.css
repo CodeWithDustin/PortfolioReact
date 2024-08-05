@@ -1,0 +1,15 @@
+.education {
+  padding: 2rem;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.education-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
