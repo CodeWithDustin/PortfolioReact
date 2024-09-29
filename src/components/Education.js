@@ -3,8 +3,8 @@ import "../styles/Education.css";
 
 const Education = () => {
   const education = [
-    { degree: "Degree 1", institution: "Institution 1", year: "Year" },
-    { degree: "Degree 2", institution: "Institution 2", year: "Year" },
+    { degree: "Software Development", institution: "Base Camp Coding Academy Graduate Institute", year: "2024" },
+    { degree: "High School Diploma", institution: "Local High School", year: "2018" },
     // Add more education details here
   ];
 

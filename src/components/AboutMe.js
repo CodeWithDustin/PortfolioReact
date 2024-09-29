@@ -3,15 +3,12 @@ import "../styles/AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <section id="about" className="about-me">
-      <h2>About Me</h2>
-      <p>
-        I have a vast knowledege of computer systems; where I know not only
-        software, but also hardware. Whether your needs are a software
-        developer, or an IT person, I am your guy. With my years of experience
-        and technical skills, I can adapt and thrive in any environment.
-      </p>
-    </section>
+    <section id="about" className="hero">
+  <h1>Hello, I'm Dustin Weeks</h1>
+  <p>I'm a passionate Software Engineer, building amazing web experiences.</p>
+  <p>Welcome to my digital domain, where expertise meets innovation. I am a seasoned professional specializing in computer hardware, software troubleshooting and repair. With a wealth of knowledge, I am well-versed in diagnosing and resolving a diverse range of issues that may arise in the intricate realm of computing.</p>
+</section>
+
   );
 };
 

@@ -1,0 +1,56 @@
+.skills {
+  background-color: #f8f9fa; /* Light background for light mode */
+  padding: 40px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50; /* Darker color for the heading */
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+  padding: 15px 20px; /* Increased padding for better spacing */
+  font-size: 1.2rem;
+  background-color: #ffffff; /* Light background for items */
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+.skill-item:hover {
+  background-color: #ecf0f1; /* Light gray on hover */
+}
+
+.skill-item span {
+  font-weight: bold;
+  color: #2c3e50; /* Darker text color for skill names */
+}
+
+/* Dark mode styles */
+body.dark-mode .skills {
+  background-color: #2c3e50; /* Dark background for skills section */
+}
+
+body.dark-mode .skills h2 {
+  color: #ecf0f1; /* Light color for the heading in dark mode */
+}
+
+body.dark-mode .skill-item {
+  background-color: #34495e; /* Darker background for skill items in dark mode */
+  color: #ffffff; /* Light text color for dark mode */
+}
+
+body.dark-mode .skill-item:hover {
+  background-color: #495057; /* Change background on hover in dark mode */
+}
+
+body.dark-mode .skill-item span {
+  color: #ecf0f1; /* Light color for skill names in dark mode */
+}

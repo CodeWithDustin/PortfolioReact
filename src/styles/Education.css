@@ -1,5 +1,12 @@
 .education {
   padding: 2rem;
+  background-color: #f8f9fa; /* Light background for light mode */
+}
+
+.education h2 {
+  text-align: center;
+  margin-bottom: 1.5rem; /* Space below heading */
+  color: #2c3e50; /* Darker color for heading */
 }
 
 .education-list {
@@ -9,7 +16,59 @@
 }
 
 .education-item {
+  background-color: #ffffff; /* Light background for items */
   border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.education-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.education-item h3 {
+  margin: 0; /* Remove default margin */
+  color: #2c3e50; /* Darker color for degree titles */
+}
+
+.education-item h4 {
+  margin: 0.5rem 0; /* Space above and below the institution */
+  color: #6c757d; /* Gray color for institution */
+}
+
+.education-item p {
+  margin: 0; /* Remove default margin */
+  color: #6c757d; /* Gray color for year */
+}
+
+/* Dark mode styles */
+body.dark-mode .education {
+  background-color: #2c3e50; /* Dark background for education section */
+}
+
+body.dark-mode .education h2 {
+  color: #ecf0f1; /* Light color for heading in dark mode */
+}
+
+body.dark-mode .education-item {
+  background-color: #34495e; /* Darker background for items in dark mode */
+  border: 1px solid #555; /* Slightly darker border in dark mode */
+  color: #ffffff; /* Light text color for dark mode */
+}
+
+body.dark-mode .education-item:hover {
+  background-color: #495057; /* Change background on hover in dark mode */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover in dark mode */
+}
+
+body.dark-mode .education-item h3 {
+  color: #ecf0f1; /* Light color for degree titles in dark mode */
+}
+
+body.dark-mode .education-item h4,
+body.dark-mode .education-item p {
+  color: #d3d3d3; /* Light gray for institution and year in dark mode */
 }
